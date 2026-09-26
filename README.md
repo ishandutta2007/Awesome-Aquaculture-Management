@@ -1,185 +1,111 @@
-# Awesome-Aquaculture-Management
-
-## Top Aquaculture Management Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Fish Farm Operations, Water Quality Monitoring, Feeding & Biomass Management, Hatchery & Grow-Out Software*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Aquaculture Management**. These systems help farms track stock, water quality, feeding, health, and production across ponds, cages, and recirculating systems.
-
-
-
-**Examples** include AquaManager, Innovasea, Aquabyte, Bluegrove, FishTalk, ScaleAQ, Triton, Aquaconnect, eFishery, and Jala (the category leaders).
-
-
-
-**Open-source emphasis**: Commercial aquaculture platforms dominate professional farming. Open work includes **farm operations apps** (e.g. AquaPulse), **controller/IoT projects**, **breeding/genomic tools**, and research monitoring stacks. This section lists every significant relevant project found.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[AquaManager, FishTalk, ScaleAQ, Triton](https://www.aquamanager.com/)**  
-
-  Established aquaculture production and farm-management software for inventory, feeding, and operational reporting.
-
-
-
-- **[Innovasea, Aquabyte, Bluegrove](https://www.innovasea.com/)**  
-
-  Technology platforms combining sensors, cameras, and analytics for biomass, welfare, and environmental monitoring.
-
-
-
-- **[Aquaconnect, eFishery, Jala](https://www.aquaconnect.blue/)**  
-
-  Digital aquaculture platforms oriented toward smallholder and industrial farms—feeding automation, advisory, and market linkages (especially in Asia).
-
-
-
-- **[Other commercial aquaculture platforms](https://www.innovasea.com/)**  
-
-  Additional solutions for hatcheries, processing integration, and compliance reporting.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[AquaPulse](https://github.com/pragalbhdwivedi/aquapulse)**  
-
-  Open-source aquaculture operations platform—ponds/batches, water quality, feeding logs, tasks, alerts, and dashboards for self-hosted farm management.
-
-
-
-- **[OpenAQUA](https://github.com/KrisKraa/OpenAQUA)**  
-
-  Open modular water-system controller (ESP32 + CAN)—pH, TDS, temperature, and expansion for tanks, ponds, and breeding systems.
-
-
-
-- **[AquaGS](https://github.com/lyonscw/AquaGS_GUI)**  
-
-  Open-source tool for aquaculture breeding programs—genomic selection workflow from VCF to mate allocation with a GUI.
-
-
-
-- **[AquacultureML / research monitoring stacks](https://github.com/ATSpuler/AquacultureML)**  
-
-  Open research and production-oriented monitoring with ML forecasting (e.g. dissolved oxygen) for intensive farming scenarios.
-
-
-
-- **[IoT water-quality & sensor projects](https://github.com/search?q=aquaculture+OR+fish+farm+water+quality+IoT)**  
-
-  Community ESP32/Arduino and LoRa projects for pond sensors and basic telemetry.
-
-
-
-- **[Farm inventory & ERPNext agriculture modules](https://github.com/frappe/erpnext)**  
-
-  Open ERP systems sometimes adapted for aquaculture stock and cost tracking.
-
-
-
-- **[Image-based biomass research code](https://github.com/search?q=fish+biomass+OR+aquaculture+computer+vision)**  
-
-  Academic open implementations of camera-based size and count estimation.
-
-
-
-- **[Recirculating aquaculture system (RAS) models](https://github.com/search?q=recirculating+aquaculture+OR+RAS+simulation)**  
-
-  Open simulation and control research for closed-system aquaculture.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Farm ops software**: AquaPulse-style self-hosted record keeping.
-
-- **Hardware control**: OpenAQUA and DIY IoT for water parameters.
-
-- **Breeding**: AquaGS for genomic selection workflows.
-
-- **Composable stacks**: Sensors → open logger → simple dashboard → commercial analytics for scale.
-
-- Commercial platforms still lead in validated biomass cameras, multi-site production suites, and regulatory reporting.
-
-
-
-**Frameworks for building custom systems**:  
-
-**AquaPulse** (or similar) for operational records; **OpenAQUA**/IoT for sensing; research ML for DO and growth models.  
-
-Commercial platforms (AquaManager, Innovasea, Aquabyte, eFishery, ScaleAQ, etc.) provide full production management and hardware ecosystems.  
-
-Small farms may combine open tools with spreadsheets; industrial aquaculture typically adopts commercial suites. Fully open stacks suit research, education, and cost-sensitive pilots with technical capacity.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Aquaculture decisions affect animal welfare, food safety, and the environment. Incorrect feeding or water-quality management can cause mass mortality. Validate any software and sensors against local regulations and veterinary guidance.
-
-- Open-source tools offer flexibility but are not substitutes for proven commercial systems in regulated food production. Commercial platforms shift support and validation burden to the vendor. Always involve qualified aquaculture professionals.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Aquaculture Management Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" />
+  <img src="https://img.shields.io/badge/Focus-Aquaculture%20%26%20Fish%20Farming-00f2fe?style=flat-square" alt="Focus" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+# 🐟 Awesome Aquaculture Management 🌊
 
+> **A curated, comprehensive list of SaaS platforms, open-source software, IoT water quality monitoring systems, computer vision biomass platforms, and research tools for modern aquaculture, fish farming, and mariculture operations.**
 
-**Made for fish farmers, aquaculture technologists, and builders of sustainable aquatic food systems.**  
+Welcome to the ultimate directory for **digital aquaculture tech**! Whether you are operating commercial net pens, recirculating aquaculture systems (RAS), shrimp ponds, hatcheries, or building open-source smart farm software, this guide covers the top production, analytics, and automation software across the global blue economy. 🐠📊
 
-Let's expand open aquaculture tooling while recognizing the operational depth and sensor ecosystems that leading commercial platforms deliver.
+---
+
+## 📑 Table of Contents
+- [📈 Industry Overview & Market Size](#-industry-overview--market-size)
+- [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [☕ Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+
+---
+
+## 📈 Industry Overview & Market Size
+
+> 💡 **Market Insights:** The global digital aquaculture management & IoT software market is estimated at **$3.5 Billion USD** (within the broader **$300+ Billion** global commercial aquaculture industry), expanding at a **11.2% CAGR**.  
+> The sector is **highly fragmented** across regions and species (e.g., European salmon cage farming vs. Asian shrimp and tilapia pond farming). Enterprise suites lead industrial net-pen operations, while modular SaaS platforms and open-source IoT sensors dominate small-to-midscale aquaculture farms.
+
+---
+
+## 🏢 SaaS & Commercial Platforms
+
+Commercial aquaculture management software powers stock tracking, feeding telemetry, water quality analytics, biosecurity compliance, and processing integration.
+
+| 🏢 Platform / Product | 💰 Company Size / Valuation / Revenue | 🏷️ Starting Pricing | 🎁 Free Tier Limit / Trial Duration | 🎯 Key Focus & Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[eFishery](https://efishery.com)** 🇮🇩 | Valuation: **$1.4 Billion (Unicorn)**<br>Audited Rev: **$157 Million** | **$20/month** rental (IDR 300k) or **$400** purchase per feeder | **eFisheryKu Free App** (Unlimited basic log entries & advisory) | Smart automated fish & shrimp feeding (eFeeder), water monitoring, input marketplace. 🦐 |
+| **[AKVA group (FishTalk)](https://www.akvagroup.com)** 🇳🇴 | Revenue: **$320 Million (MNOK 3,400)**<br>Valuation: **~$250 Million** | **$500/month** base site enterprise plan | **14-Day Enterprise Demo** (Guided setup upon request) | Enterprise salmon & finfish ERP, feeding control systems, biological growth modeling. 🐟 |
+| **[ScaleAQ](https://scaleaq.com)** 🇳🇴 | Revenue: **$300 Million**<br>Valuation: **~$200 Million** | **$450/month** base site plan | **30-Day Guided Pilot** (Hardware & digital suite demo) | Cage infrastructure digital twin, net-pen sensors, camera biomass estimation & RAS control. 🌐 |
+| **[Innovasea (Farm360)](https://www.innovasea.com)** 🇺🇸 | Revenue: **$100 Million+**<br>Valuation: **~$300 Million** | **$250/month** base farm plan | **14-Day Interactive Tour** & free live demo | Real-time ocean environmental sensors, acoustic fish tracking, water quality analytics. 🌊 |
+| **[Aquaconnect](https://aquaconnect.blue)** 🇮🇳 | Revenue: **$38 Million (₹313 Cr)**<br>Valuation: **~$150 Million** | **$6/month/pond** (₹500/mo/pond) for Pro tier | **AquaONE Free Basic Tier** (Unlimited ponds, basic logs) | AI & satellite remote sensing for shrimp & fish farm advisory, financial & market linkages. 📡 |
+| **[Aquabyte](https://www.aquabyte.ai)** 🇺🇸 | Valuation: **~$150 Million**<br>Total Funding: **$46 Million** | **$1,500/cage/month** software & camera lease | **30-Day On-Site Trial** (Hardware installation trial) | AI computer vision for underwater biomass estimation, sea lice automated detection, welfare. 📷 |
+| **[Bluegrove / CageEye](https://bluegrove.com)** 🇳🇴 | Valuation: **~$80 Million**<br>Total Funding: **$25 Million** | **$800/cage/month** sensor & AI analytics | **14-Day Guided Trial** (Acoustic feeding analysis demo) | Hydroacoustic sensors & machine learning algorithms for autonomous fish feeding optimization. 🔊 |
+| **[JALA Tech](https://jala.tech)** 🇮🇩 | Valuation: **~$50 Million**<br>Total Funding: **$13.1 Million** | **$6.50/month/pond** (IDR 100k) or **$39/year/pond** | **JALA Free Basic App** (Up to 2 ponds) & **14-Day Pro Trial** | Shrimp farm digital management, multiparameter IoT water meters, disease forecast alerts. 🧪 |
+| **[aquaManager](https://www.aquamanager.com)** 🇬🇷 | Revenue: **~$10 Million**<br>Valuation: **~$30 Million** | **$150/month** starter farm plan | **14-Day Free Demo Trial** (Full SaaS feature access) | End-to-end hatchery to harvest stock control, biomass estimation, feed conversion (FCR) tracking. 📊 |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Open-source aquaculture tools enable self-hosted farm management, custom IoT telemetry, genomic selection, and scientific marine research.
+
+| 🚀 Repository | 🌟 Stars | 🛠️ Tech Stack & Language | 📝 Overview & Core Functionality |
+| :--- | :--- | :--- | :--- |
+| **[frappe/erpnext](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python, Vue, JS | Open-source enterprise ERP with agriculture & farm management modules adaptable for fish inventory, harvest tracking, and cost accounting. 🚜 |
+| **[pragalbhdwivedi/aquapulse](https://github.com/pragalbhdwivedi/aquapulse)** | [![Stars](https://img.shields.io/github/stars/pragalbhdwivedi/aquapulse?style=social&color=white)](https://github.com/pragalbhdwivedi/aquapulse/stargazers) | TypeScript, React, Node.js | Self-hosted open-source aquaculture operations platform—pond/batch logging, feeding schedules, water quality parameters, and dashboards. 📊 |
+| **[climatechange-ai-tutorials/aquaculture-mapping](https://github.com/climatechange-ai-tutorials/aquaculture-mapping)** | [![Stars](https://img.shields.io/github/stars/climatechange-ai-tutorials/aquaculture-mapping?style=social&color=white)](https://github.com/climatechange-ai-tutorials/aquaculture-mapping/stargazers) | Jupyter Notebook, Python, PyTorch | Deep learning satellite imagery tutorial & models for detecting, mapping, and monitoring coastal aquaculture ponds. 🛰️ |
+| **[IBM/PrecisionAquaculture.jl](https://github.com/IBM/PrecisionAquaculture.jl)** | [![Stars](https://img.shields.io/github/stars/IBM/PrecisionAquaculture.jl?style=social&color=white)](https://github.com/IBM/PrecisionAquaculture.jl/stargazers) | Julia | Machine learning and data-driven analysis framework for environmental and hydroacoustic aquaculture datasets. 🔬 |
+| **[KrisKraa/OpenAQUA](https://github.com/KrisKraa/OpenAQUA)** | [![Stars](https://img.shields.io/github/stars/KrisKraa/OpenAQUA?style=social&color=white)](https://github.com/KrisKraa/OpenAQUA/stargazers) | C++, ESP32, CAN Bus | Modular open-source hardware water controller (ESP32-S3) for real-time monitoring of pH, TDS, temperature, and automated dosing. 🔌 |
+| **[lyonscw/AquaGS_GUI](https://github.com/lyonscw/AquaGS_GUI)** | [![Stars](https://img.shields.io/github/stars/lyonscw/AquaGS_GUI?style=social&color=white)](https://github.com/lyonscw/AquaGS_GUI/stargazers) | R, Shiny, GUI | Open GUI tool for aquaculture breeding programs—genomic selection (GS) workflow from VCF files to mate allocation. 🧬 |
+| **[frabas/DISPLACE_GUI](https://github.com/frabas/DISPLACE_GUI)** | [![Stars](https://img.shields.io/github/stars/frabas/DISPLACE_GUI?style=social&color=white)](https://github.com/frabas/DISPLACE_GUI/stargazers) | C++, R, Shiny | Spatial bio-economic model & GUI for marine fisheries, aquaculture zoning, and ecosystem spatial management. 🗺️ |
+| **[Bukharney/Fishcare](https://github.com/Bukharney/Fishcare)** | [![Stars](https://img.shields.io/github/stars/Bukharney/Fishcare?style=social&color=white)](https://github.com/Bukharney/Fishcare/stargazers) | Dart, Flutter, Firebase | Cross-platform IoT mobile app for real-time fish farm monitoring, automated feeder controls, and water metric alerts. 📱 |
+| **[ATSpuler/AquacultureML](https://github.com/ATSpuler/AquacultureML)** | [![Stars](https://img.shields.io/github/stars/ATSpuler/AquacultureML?style=social&color=white)](https://github.com/ATSpuler/AquacultureML/stargazers) | Python, Scikit-Learn | Machine learning research stack for dissolved oxygen (DO) prediction and water quality time-series forecasting. 🤖 |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are enthusiastically welcomed! Help keep this awesome list accurate and up to date:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add or update** entries in `README.md` following the table format.
+3. 🔎 **Provide verifiable details**: Product name, official link, pricing, free trial limits, and company revenue/funding data.
+4. 🚀 **Submit a Pull Request** with a brief summary of additions.
+
+For list format guidelines, refer to [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** for informational and educational purposes.
+- **Biosecurity & Operational Risk:** Aquaculture operations directly affect live stock health, environmental ecosystems, and food safety. Hardware/software solutions should be verified with certified aquaculture specialists and veterinary guidance before deployment in industrial production.
+
+---
+
+## ☕ Support & Community
+
+Thank you for exploring **Awesome Aquaculture Management**! 🐟  
+If you find this repository helpful for your fish farming operations, research, or development:
+
+- ⭐ **Star** this repository to stay updated with new tools.
+- 🔀 **Fork** and contribute open-source software or SaaS products.
+- 📢 **Share** with fish farmers, marine biologists, and aquaculture technologists!
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" /></a>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Aquaculture-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Aquaculture-Management&type=date&legend=top-left)

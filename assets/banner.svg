@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="50%" stop-color="#0d253f"/>
+      <stop offset="100%" stop-color="#020c1b"/>
+    </linearGradient>
+
+    <!-- Wave Gradients -->
+    <linearGradient id="wave1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="wave2Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0072ff" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Glow Effect -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 54px;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: 1px;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      fill: #64ffda;
+      letter-spacing: 0.5px;
+    }
+    .tagline {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      fill: #8892b0;
+    }
+
+    /* Dynamic CSS Animations */
+    @keyframes floatWave1 {
+      0% { transform: translateX(0px) translateY(0px); }
+      50% { transform: translateX(-30px) translateY(10px); }
+      100% { transform: translateX(0px) translateY(0px); }
+    }
+    @keyframes floatWave2 {
+      0% { transform: translateX(0px) translateY(0px); }
+      50% { transform: translateX(30px) translateY(-8px); }
+      100% { transform: translateX(0px) translateY(0px); }
+    }
+    @keyframes bubbleRise {
+      0% { transform: translateY(0px); opacity: 0.2; }
+      50% { opacity: 0.7; }
+      100% { transform: translateY(-120px); opacity: 0; }
+    }
+    @keyframes pulseFish {
+      0% { transform: scale(1) translateX(0); }
+      50% { transform: scale(1.05) translateX(15px); }
+      100% { transform: scale(1) translateX(0); }
+    }
+
+    .wave1 { animation: floatWave1 12s ease-in-out infinite; }
+    .wave2 { animation: floatWave2 8s ease-in-out infinite; }
+    .bubble { animation: bubbleRise 6s ease-in-out infinite; }
+    .fish-anim { animation: pulseFish 10s ease-in-out infinite; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="400" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Animated Wave Background Shapes -->
+  <g class="wave2">
+    <path d="M0,280 C300,240 600,320 900,260 C1050,230 1150,270 1200,280 L1200,400 L0,400 Z" fill="url(#wave2Grad)" />
+  </g>
+
+  <g class="wave1">
+    <path d="M0,310 C200,350 500,270 800,330 C1000,370 1100,310 1200,330 L1200,400 L0,400 Z" fill="url(#wave1Grad)" />
+  </g>
+
+  <!-- Ambient Bubbles -->
+  <circle class="bubble" cx="150" cy="320" r="6" fill="#64ffda" opacity="0.4" style="animation-delay: 0s;" />
+  <circle class="bubble" cx="280" cy="350" r="10" fill="#00f2fe" opacity="0.3" style="animation-delay: 2s;" />
+  <circle class="bubble" cx="920" cy="330" r="8" fill="#64ffda" opacity="0.5" style="animation-delay: 1s;" />
+  <circle class="bubble" cx="1050" cy="360" r="12" fill="#4facfe" opacity="0.3" style="animation-delay: 3.5s;" />
+
+  <!-- Stylized Decorative Fish / Ocean Tech Graphics (Background) -->
+  <g class="fish-anim" opacity="0.25" transform="translate(820, 70)">
+    <!-- Fish Icon / Data Nodes -->
+    <path d="M80 40 C50 10 10 30 0 40 C10 50 50 70 80 40 Z M80 40 L110 20 L110 60 Z" fill="none" stroke="#00f2fe" stroke-width="3" />
+    <circle cx="30" cy="38" r="4" fill="#64ffda" />
+    <line x1="30" y1="38" x2="60" y2="20" stroke="#00f2fe" stroke-dasharray="2,2" />
+    <line x1="30" y1="38" x2="60" y2="55" stroke="#00f2fe" stroke-dasharray="2,2" />
+  </g>
+
+  <!-- Text Foreground (Clean & Unobscured) -->
+  <g filter="url(#shadow)" transform="translate(80, 160)">
+    <!-- Icon / Badge -->
+    <rect x="0" y="-60" width="64" height="64" rx="14" fill="#00f2fe" opacity="0.15" />
+    <text x="16" y="-16" font-size="36">🐟</text>
+
+    <!-- Main Title -->
+    <text x="84" y="-22" class="title" filter="url(#glow)">Awesome Aquaculture Management</text>
+
+    <!-- Subtitle -->
+    <text x="84" y="24" class="subtitle">Curated SaaS Platforms, Open-Source Software &amp; IoT Solutions</text>
+
+    <!-- Tagline / SEO Subtext -->
+    <text x="84" y="62" class="tagline">Fish Farming • Water Quality Monitoring • Feeding Automation • Biomass Analytics • RAS Systems</text>
+  </g>
+</svg>
