@@ -59,7 +59,7 @@ Commercial aquaculture management software powers stock tracking, feeding teleme
 
 Open-source aquaculture tools enable self-hosted farm management, custom IoT telemetry, genomic selection, and scientific marine research.
 
-| 🚀 Repository | 🌟 Stars | 🛠️ Tech Stack & Language | 📝 Overview & Core Functionality |
+| 🚀 Repository | 🌟 GitHub_Stars | 🛠️ Tech Stack & Language | 📝 Overview & Core Functionality |
 | :--- | :--- | :--- | :--- |
 | **[frappe/erpnext](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python, Vue, JS | Open-source enterprise ERP with agriculture & farm management modules adaptable for fish inventory, harvest tracking, and cost accounting. 🚜 |
 | **[pragalbhdwivedi/aquapulse](https://github.com/pragalbhdwivedi/aquapulse)** | [![Stars](https://img.shields.io/github/stars/pragalbhdwivedi/aquapulse?style=social&color=white)](https://github.com/pragalbhdwivedi/aquapulse/stargazers) | TypeScript, React, Node.js | Self-hosted open-source aquaculture operations platform—pond/batch logging, feeding schedules, water quality parameters, and dashboards. 📊 |
